@@ -38,6 +38,10 @@ html {
 .terms {
   height: 400px;
   padding: 70px;
+  overflow-y: scroll;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 .button-container {
